@@ -1,0 +1,16 @@
+17:05:14 **** Build of configuration Debug for project USART_driver ****
+make all 
+Building file: ../USART_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"USART_source.d" -MT"USART_source.o" -c -o "USART_source.o" "../USART_source.c"
+Finished building: ../USART_source.c
+ 
+Building target: USART_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,USART_driver.map -mmcu=atmega32 -o "USART_driver.elf"  ./USART_source.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [USART_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+17:05:15 Build Failed. 2 errors, 0 warnings. (took 484ms)
+

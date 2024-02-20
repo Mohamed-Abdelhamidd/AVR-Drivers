@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;USART_driver/USART_private .h&apos; to &apos;USART_privat.h&apos;" description="Rename resource &apos;USART_private .h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="USART_private .h" name="USART_privat.h" stamp="1705506698182" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;USART_driver/USART_privat.h&apos; to &apos;USART_private.h&apos;" description="Rename resource &apos;USART_privat.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="USART_privat.h" name="USART_private.h" stamp="1705506712742" updateReferences="true"/>
+</session>

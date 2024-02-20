@@ -1,0 +1,153 @@
+09:25:05 **** Incremental Build of configuration Debug for project WDT_Driver ****
+make all 
+Building file: ../WDT_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"WDT_source.d" -MT"WDT_source.o" -c -o "WDT_source.o" "../WDT_source.c"
+Finished building: ../WDT_source.c
+ 
+Building target: WDT_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,WDT_Driver.map -mmcu=atmega32 -o "WDT_Driver.elf"  ./WDT_source.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [WDT_Driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:08:47 **** Build of configuration Debug for project DIO_driver ****
+make all 
+Building file: ../DIO_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_source.d" -MT"DIO_source.o" -c -o "DIO_source.o" "../DIO_source.c"
+../DIO_source.c:15:2: error: #error "not_exist_pin"
+../DIO_source.c:69:2: error: #error "not_exist_pin"
+../DIO_source.c:123:2: error: #error "not_exist_pin"
+../DIO_source.c:176:2: error: #error "not_exist_pin"
+../DIO_source.c: In function 'DIO_writePort':
+../DIO_source.c:205: error: 'PIN_ID' undeclared (first use in this function)
+../DIO_source.c:205: error: (Each undeclared identifier is reported only once
+../DIO_source.c:205: error: for each function it appears in.)
+../DIO_source.c: In function 'DIO_readPin':
+../DIO_source.c:229: warning: 'return' with no value, in function returning non-void
+make: *** [DIO_source.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:08:50 **** Incremental Build of configuration Debug for project Ex_interrupts_driver ****
+make all 
+Building file: ../Ex_interrupts_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Ex_interrupts_source.d" -MT"Ex_interrupts_source.o" -c -o "Ex_interrupts_source.o" "../Ex_interrupts_source.c"
+Finished building: ../Ex_interrupts_source.c
+ 
+Building target: Ex_interrupts_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ex_interrupts_driver.map -mmcu=atmega32 -o "Ex_interrupts_driver.elf"  ./Ex_interrupts_source.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [Ex_interrupts_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:08:51 **** Incremental Build of configuration Debug for project Timers_driver ****
+make all 
+Building file: ../timers_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timers_source.d" -MT"timers_source.o" -c -o "timers_source.o" "../timers_source.c"
+Finished building: ../timers_source.c
+ 
+Building target: Timers_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Timers_driver.map -mmcu=atmega32 -o "Timers_driver.elf"  ./timers_source.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [Timers_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:08:52 **** Clean-only build of configuration Debug for project WDT_driver ****
+make clean 
+rm -rf  ./WDT_source.o  sizedummy  WDT_Driver.lss  ./WDT_source.d  WDT_Driver.elf
+ 
+22:08:52 **** Build of configuration Debug for project WDT_driver ****
+make all 
+Building file: ../WDT_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"WDT_source.d" -MT"WDT_source.o" -c -o "WDT_source.o" "../WDT_source.c"
+Finished building: ../WDT_source.c
+ 
+Building target: WDT_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,WDT_driver.map -mmcu=atmega32 -o "WDT_driver.elf"  ./WDT_source.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [WDT_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project mutual_files ****
+
+Nothing to build for project mutual_files
+17:05:10 **** Build of configuration Debug for project DIO_driver ****
+make all 
+Building file: ../DIO_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_source.d" -MT"DIO_source.o" -c -o "DIO_source.o" "../DIO_source.c"
+In file included from ../DIO_source.c:7:
+../DIO_interface.h:35: error: expected declaration specifiers or '...' before 'u8'
+../DIO_interface.h:44: error: expected declaration specifiers or '...' before 'u8'
+../DIO_interface.h:51: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_readPin'
+../DIO_interface.h:58: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_readPort'
+../DIO_source.c:17: error: conflicting types for 'DIO_setupPinDirection'
+../DIO_interface.h:18: error: previous declaration of 'DIO_setupPinDirection' was here
+../DIO_source.c:140: error: conflicting types for 'DIO_writePin'
+../DIO_interface.h:35: error: previous declaration of 'DIO_writePin' was here
+../DIO_source.c:201: error: conflicting types for 'DIO_writePort'
+../DIO_interface.h:44: error: previous declaration of 'DIO_writePort' was here
+../DIO_source.c:324: error: conflicting types for 'DIO_setPullUpPin'
+../DIO_interface.h:65: error: previous declaration of 'DIO_setPullUpPin' was here
+../DIO_source.c: In function 'DIO_setPullUpPin':
+../DIO_source.c:335: error: lvalue required as left operand of assignment
+../DIO_source.c:339: error: lvalue required as left operand of assignment
+../DIO_source.c:343: error: lvalue required as left operand of assignment
+../DIO_source.c:347: error: lvalue required as left operand of assignment
+make: *** [DIO_source.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:05:12 **** Build of configuration Debug for project Ex_interrupts_driver ****
+make all 
+Building file: ../Ex_interrupts_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Ex_interrupts_source.d" -MT"Ex_interrupts_source.o" -c -o "Ex_interrupts_source.o" "../Ex_interrupts_source.c"
+Finished building: ../Ex_interrupts_source.c
+ 
+Building target: Ex_interrupts_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ex_interrupts_driver.map -mmcu=atmega32 -o "Ex_interrupts_driver.elf"  ./Ex_interrupts_source.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [Ex_interrupts_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:05:13 **** Build of configuration Debug for project Timers_driver ****
+make all 
+Building file: ../timers_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"timers_source.d" -MT"timers_source.o" -c -o "timers_source.o" "../timers_source.c"
+Finished building: ../timers_source.c
+ 
+Building target: Timers_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Timers_driver.map -mmcu=atmega32 -o "Timers_driver.elf"  ./timers_source.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [Timers_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:05:14 **** Build of configuration Debug for project USART_driver ****
+make all 
+Building file: ../USART_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"USART_source.d" -MT"USART_source.o" -c -o "USART_source.o" "../USART_source.c"
+Finished building: ../USART_source.c
+ 
+Building target: USART_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,USART_driver.map -mmcu=atmega32 -o "USART_driver.elf"  ./USART_source.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [USART_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:05:15 **** Build of configuration Debug for project WDT_driver ****
+make all 
+Building target: WDT_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,WDT_driver.map -mmcu=atmega32 -o "WDT_driver.elf"  ./WDT_source.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [WDT_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project mutual_files ****
+
+Nothing to build for project mutual_files

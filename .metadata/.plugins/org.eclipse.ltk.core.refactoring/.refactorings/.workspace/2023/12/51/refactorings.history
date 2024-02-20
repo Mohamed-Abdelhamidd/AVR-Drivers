@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;WDT_Driver&apos; to &apos;WDT_driver&apos;" description="Rename resource &apos;WDT_Driver&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/WDT_Driver" name="WDT_driver" stamp="1703261946155" updateReferences="true"/>
+</session>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DIO_driver/DIO_Confg.h&apos; to &apos;DIO_confg.h&apos;" description="Rename resource &apos;DIO_Confg.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DIO_Confg.h" name="DIO_confg.h" stamp="1703268887839" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DIO_driver/DIO_Private.h&apos; to &apos;DIO_private.h&apos;" description="Rename resource &apos;DIO_Private.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DIO_Private.h" name="DIO_private.h" stamp="1703268895467" updateReferences="true"/>
+</session>

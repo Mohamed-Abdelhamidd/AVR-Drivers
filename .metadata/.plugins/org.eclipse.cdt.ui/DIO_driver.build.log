@@ -1,0 +1,28 @@
+17:05:10 **** Build of configuration Debug for project DIO_driver ****
+make all 
+Building file: ../DIO_source.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_source.d" -MT"DIO_source.o" -c -o "DIO_source.o" "../DIO_source.c"
+In file included from ../DIO_source.c:7:
+../DIO_interface.h:35: error: expected declaration specifiers or '...' before 'u8'
+../DIO_interface.h:44: error: expected declaration specifiers or '...' before 'u8'
+../DIO_interface.h:51: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_readPin'
+../DIO_interface.h:58: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_readPort'
+../DIO_source.c:17: error: conflicting types for 'DIO_setupPinDirection'
+../DIO_interface.h:18: error: previous declaration of 'DIO_setupPinDirection' was here
+../DIO_source.c:140: error: conflicting types for 'DIO_writePin'
+../DIO_interface.h:35: error: previous declaration of 'DIO_writePin' was here
+../DIO_source.c:201: error: conflicting types for 'DIO_writePort'
+../DIO_interface.h:44: error: previous declaration of 'DIO_writePort' was here
+../DIO_source.c:324: error: conflicting types for 'DIO_setPullUpPin'
+../DIO_interface.h:65: error: previous declaration of 'DIO_setPullUpPin' was here
+../DIO_source.c: In function 'DIO_setPullUpPin':
+../DIO_source.c:335: error: lvalue required as left operand of assignment
+../DIO_source.c:339: error: lvalue required as left operand of assignment
+../DIO_source.c:343: error: lvalue required as left operand of assignment
+../DIO_source.c:347: error: lvalue required as left operand of assignment
+make: *** [DIO_source.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+17:05:11 Build Failed. 17 errors, 0 warnings. (took 1s.774ms)
+
